@@ -1,0 +1,33 @@
+command /giorno:
+    permission: sk.giorno
+    permission message: &b&lSKRIPT &7Comand Sconosciuto
+    trigger:
+        make console execute command "/time set day"
+
+
+
+
+    
+command /notte:
+    permission: sk.notte
+    permission message: &b&lSKRIPT &7Comand Sconosciuto
+    trigger:
+        make console execute command "/time set night"
+
+
+
+
+command /pioggia:
+    permission: sk.pioggia
+    permission message: &b&lSKRIPT &7Comand Sconosciuto
+    trigger:
+        make console execute command "/weather rain"
+
+
+
+
+command /toglipioggia:
+    permission: sk.toglipioggia
+    permission message: &b&lSKRIPT &7Comand Sconosciuto
+    trigger:
+        make console execute command "/weather clear"
